@@ -1,0 +1,273 @@
+body
+{
+    padding: 0;
+    margin: 0;
+    /* background-color: rgb(221, 221, 221); */
+        /* background-color: #a2e2c8; */
+}
+img
+{
+    width: 40%;
+}
+#logo,#headingname
+{
+    width:50px;
+    position: absolute; /* come too center */
+    left: 5%;
+    top: 15px;
+    border-radius: 17px;
+}
+#headingname
+{
+    margin-left: 5rem;
+    top: 0px;
+    font-family: 'Calibri Light' , 'Times New Roman', 'Trebuchet MS';
+    font-size: 30px;
+    color: white;
+}
+nav
+{
+    height: 80px;
+    /* background: #828588; */
+    background: #0a372e;
+}   
+
+ul
+{
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    margin-right: 25px;
+    
+}
+
+li
+{
+    display: inline-block;
+    line-height: 50px;
+    margin: 15px;
+}
+
+a
+{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+
+
+
+
+#auth
+{
+    /* margin-left: 5px; */
+    color: white;
+}
+
+footer
+{
+  margin-top: 25px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  box-sizing: border-box;
+  padding: 5px 0px;
+  /* border-top: 1px solid rgba(0, 0, 0, 0.533); */
+  border-top: 1px solid  #0a372e;
+  background: #0a372e;
+color: white;
+
+
+}
+
+.allresto , .createresto ,.sortresto
+{
+    font-size: 25px;
+    color: white;
+    top: 1rem;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.headcontainer
+{
+ display: flex;
+ justify-content: space-evenly;   
+}
+
+.searchresto
+{
+    top: 6rem;
+    position: relative;
+    margin: 20px auto;
+}
+.container
+{
+    box-shadow: 11px 12px 5px #888;
+    border: 1px solid #000;
+    text-align: center;
+    padding-bottom: 10px;
+    border-radius: 5px;
+    background-color: #95F7D0;
+}
+
+
+
+#allresto
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+    grid-gap: 0.8rem;
+    width: 100%;
+    padding: 10px 0;
+    /* margin-top: 30px; */
+    margin-top: 86vh;
+}
+
+@media all and (max-width:750px) {
+    #allresto {
+     grid-template-columns: 1fr;
+    }
+}
+
+
+.restoname
+{
+    font-family: 'ALGERIAN' , 'Times New Roman', 'Trebuchet MS';
+}
+.menubtn
+{
+    padding: 12px 15px;
+    background-color: lightgoldenrodyellow;
+    border-radius: 15px;
+    border-color: blue;
+    transform: translateY(4px);
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: 'Calibri','Times New Roman';
+}
+.menubtn:hover
+{
+    opacity: 0.8;
+}
+
+.restoadd
+{
+    font-family:'Bookman Old Style', 'Times New Roman', 'Trebuchet MS';
+}
+
+.menuname
+{
+    font-family:'Comic Sans MS', 'Times New Roman', 'Trebuchet MS';
+}
+
+.menudes
+{
+    font-family:'Trebuchet MS', 'Times New Roman', 'Calibri';
+    
+}
+#coverimage
+{
+
+
+    top: 80px;
+    background-image: url("../img/coverimg.avif");
+    opacity: 0.8;
+    height:85vh;
+    width:100vw;
+    background-repeat: no-repeat;
+    display: block;
+    position: absolute;
+    background-position:center;
+    background-size:cover;
+    text-align: center;
+}
+
+
+#coverimg
+{
+
+
+
+
+    position: absolute;
+top: 0px;
+left: 0px;
+height: 100%;
+width: 100%;
+object-fit: cover;
+transform: scale(1.1);
+transition: all 1.4s ease 0s;
+opacity: 1;
+}
+
+.menuimg
+{
+    margin: 3px 6px;
+    border-radius: 35px;
+}
+.menuimg:hover
+{
+transform: scale(0.8);
+transition: all 1.4s ease 0s;
+}
+
+#searchresto
+{
+    width: 50%;
+height: 3rem;
+position: relative;
+
+border: 2px solid black;
+border-radius: 30px;
+padding: 2px 20px;
+font-size: 1.25rem;
+
+
+  padding-right: 25px;
+  background-repeat: no-repeat;
+  
+background-image: url("../img/search.png");
+background-position-x: 100%;
+background-position-y: 60%;
+background-size: 3rem;
+}
+
+#searchbtn
+{
+    position: relative;
+
+    padding: 15px 30px;
+    border-radius: 25px;
+}
+
+.resimg:hover
+{
+    scale: 1.1;
+    transition: 0.5s ease-in-out;
+}
+
+.infobtn
+{
+    transform: translateY(4px);
+    cursor: pointer;
+    font-size: 17px;
+    padding: 12px 10px;
+    border: 2px solid #1849db;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.headcontainer
+{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px 5px;
+    align-items: center;
+}
+

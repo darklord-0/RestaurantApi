@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyRestos</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../css/sort_resto.css">
+</head>
+<body>
+
+    <nav>
+
+        <img src="../img/restologo.jpg" alt="img" id="logo">
+        <a href="/">
+            <h1 id="headingname">MyRestos</h1>
+        </a>
+        <ul>
+            <li id="authli"> 
+                <a href="../pages/signin.html" id="authbtn"> SIGN IN </a>
+            </li>
+        </ul>
+    </nav>
+    
+    <div class="sortdiv">   
+        <label for="sort">Sort By:</label>
+            <select name="sort" id="sort">
+                <option value="reviews">Reviews</option>
+                <option value="location">Location</option>
+                <option value="address">Address</option>
+                <option value="averagecost">Average Cost</option>
+                <option value="businessname">Name</option>
+                <option value="restauranttype">Type</option>
+            </select>
+
+            <select name="order" id="order">
+                <option value="inc">Increasing</option>
+                <option value="dec">Decreasing</option>
+            </select>
+        <button id="sortbtn" >SORT</button>
+    </div>
+    <div id="allresto"></div>
+    
+    <footer> MADE BY HARSHIT &#169; 2022 </footer>
+
+</body>
+  <script src="../scripts/sort_resto.js"></script>
+
+</html>
+

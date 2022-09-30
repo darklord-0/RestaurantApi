@@ -1,0 +1,71 @@
+body
+{
+  background-color: rgb(227, 246, 253);
+}
+#signincontainer
+{
+  background-color: skyblue;
+  color: black;
+  position: relative;
+  width: 480px;
+  padding: 1px 10px;
+  margin: 40px auto;
+  height: 530px;
+  border: 2px solid #06adf1;
+  border-radius: 10px;
+  box-shadow: 10px 10px 8px #888888;
+}
+
+#signinhead
+{
+  font-size: 25px;
+}
+
+.warning
+{
+  border: 2px solid red;
+}
+hr{
+  border: 1px solid black;
+
+}
+.signin
+{
+  font-size: 20px;
+  font-weight: bold;
+}
+input{
+  width: 95%;
+  height: 30px;
+  box-shadow: 5px 10px 8px #888;
+  font-size: 18px;
+  margin: 0px auto;
+}
+.signbtn
+{
+  width: 30%;
+  background-color: lightgreen;
+  padding: 12px 20px;
+  box-shadow:  5px 10px 20px #888888;
+  border-radius: 30px;
+  transform: translateY(4px);
+  cursor: pointer;
+}
+.signbtn:hover
+{
+  opacity: 0.7;
+}
+
+#signinbtn
+{
+  margin-top: 1.5rem;
+}
+
+.home
+{
+  position: relative;
+  display: flex;
+  align-items: center;
+  left: 150px;
+  font-size: 17px;
+}
